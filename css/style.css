@@ -1,0 +1,77 @@
+:root {
+    --dark-color: #19283f;
+    --green-color: #33d1cc;
+    --red-color: #ff3150;
+    --yellow-color: #ffc400;
+    --section-color: #eff7fa;
+}
+*{
+    font-family:Roboto;
+}
+
+/* Start Nav Bar  */
+
+.navbar {
+    background-color: var(--dark-color);
+}
+
+/* End Nav Bar  */
+
+/* Introduction */
+.intro {
+    position: absolute;
+    z-index: 999999;
+    font-family: consolas;
+    color: var(--section-color);
+    top:20px;
+    left: 33%;
+    font-size: auto;
+    background-color: #19283f77;
+}
+/*  end Introduction */
+.a123 ion-icon {
+    font-size: 120px;
+    background-color: var(--yellow-color);
+    border-radius: 25px;
+    padding: 10px;
+    margin-top: 10px;
+}
+.a123,.a122 {
+    background-color: var(--dark-color);
+}
+.card_holder {
+    position: relative;
+    top: -20px;
+}
+.card_holder .card img {
+    height: 200px;
+}
+.card_holder .card{
+    box-shadow: 0 0 1px var(--dark-color);
+}
+#about_me {
+    font-size: 20px;
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    right: 46%;
+    z-index: 99;
+}
+.dddf {
+
+    display: flex;
+    justify-content: center;
+    padding: 26px;
+    width: 100%;
+}
+.dddf .media {
+    width: 80%;
+}
+.active {
+    transform: translateX(0%);
+    transition: 1.2s;
+}
+.disactive {
+    transition: 1.2s;
+    transform: translateX(100%);
+}
