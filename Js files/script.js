@@ -33,12 +33,8 @@ window.onscroll = function () {
         card_holder.classList.remove("active")
         card_holder.classList.add("disactive")
     }
-    if ( window.scrollY  >= 180 & window.scrollY < 450) {
+    else {
         card_holder.classList.add("active")
         card_holder.classList.remove("disactive")
-    }
-    if ( window.scrollY  >= 450){
-        card_holder.classList.remove("active")
-        card_holder.classList.add("disactive")
     }
   };
